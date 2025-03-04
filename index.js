@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/aboutus.html")
 })
 
+
 app.listen(3000, ()=>{
   console.log("Server started...")
 })
